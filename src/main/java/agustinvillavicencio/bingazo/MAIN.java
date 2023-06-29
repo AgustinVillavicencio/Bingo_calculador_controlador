@@ -4,7 +4,6 @@ package agustinvillavicencio.bingazo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-
  // @author Agustin Villa
  
 public class MAIN {
@@ -440,290 +439,483 @@ public class MAIN {
         byte a140[][]={{11,36,42,64,73},{12,21,57,76,80},{3,24,44,59,82},
             {6,20,46,66,81},{16,37,47,69,72},{8,22,52,75,87},
             {1,15,30,51,67},{7,28,34,68,71},{18,29,48,53,89}};
+        byte a141[][]={{5,10,41,66,83},{24,31,57,70,84},{18,39,45,68,79},
+            {6,25,52,72,80},{17,34,42,63,75},{28,35,59,64,86},
+            {1,13,4,67,82},{23,38,51,76,87},{14,26,46,53,78}};
+        byte a142[][]={{11,20,48,56,89},{3,22,30,60,77},{8,15,36,58,69},
+            {7,12,40,73,81},{9,27,32,50,61},{29,49,55,74,90},
+            {2,33,43,71,85},{16,21,54,62,88},{4,19,37,47,65}};
+        byte a143[][]={{13,31,48,60,86},{26,36,55,70,89},{4,15,49,58,73},
+            {10,24,54,74,80},{5,25,30,57,78},{19,39,44,68,87},
+            {2,11,43,75,83},{14,33,46,64,77},{9,29,52,69,84}};
+        byte a144[][]={{1,16,34,51,62},{7,20,35,66,81},{18,28,47,56,79},
+            {3,21,40,76,85},{22,32,53,63,88},{6,17,37,45,65},
+            {12,23,50,61,82},{27,41,59,71,90},{8,38,42,67,72}};
+        byte a145[][]={{16,21,54,61,83},{24,42,59,70,87},{3,38,48,65,76},
+            {8,28,41,78,81},{29,32,50,60,85},{9,13,36,47,67},
+            {11,34,40,62,84},{22,35,55,71,88},{5,19,49,56,75}};
+        byte a146[][]={{12,20,53,73,82},{4,26,31,58,74},{15,33,45,68,90},
+            {6,10,44,77,86},{18,37,46,64,79},{7,27,52,69,89},
+            {1,14,30,51,63},{2,23,39,66,80},{17,25,43,57,72}};
+        byte a147[][]={{25,30,58,67,84},{15,32,41,76,88},{4,19,42,68,78},
+            {7,13,46,64,71},{16,31,52,73,86},{24,36,57,66,89},
+            {21,45,50,77,85},{5,26,33,53,90},{6,12,38,48,62}};
+        byte a148[][]={{14,37,40,63,70},{17,27,54,72,80},{1,29,49,59,83},
+            {8,22,43,65,82},{18,34,47,69,74},{9,23,56,75,87},
+            {2,10,35,51,60},{3,20,39,61,79},{11,28,44,55,81}};
+        byte a149[][]={{26,31,51,62,81},{11,38,43,73,82},{7,12,44,68,74},
+            {3,10,47,61,76},{17,32,55,79,85},{25,39,58,69,89},
+            {21,48,57,75,80},{4,28,33,59,87},{6,15,34,49,63}};
+        byte a150[][]={{16,30,45,67,70},{18,22,53,72,83},{2,27,46,54,84},
+            {5,24,40,64,88},{19,35,41,66,77},{8,29,56,78,90},
+            {1,13,36,50,60},{9,20,37,65,71},{14,23,42,52,86}};
+        byte a151[][]={{28,33,53,60,81},{15,35,40,71,90},{1,17,44,65,74},
+            {5,10,49,63,78},{16,32,58,79,84},{22,38,59,68,89},
+            {25,42,55,70,85},{6,27,34,57,86},{8,14,36,46,62}};
+        byte a152[][]={{12,30,43,67,75},{18,24,50,77,82},{3,26,47,52,87},
+            {2,23,41,66,80},{11,31,48,69,72},{7,29,54,73,88},
+            {4,13,37,51,61},{9,20,39,64,76},{19,21,45,56,83}};
+        byte a153[][]={{12,30,41,68,80},{23,38,53,75,84},{1,18,48,59,76},
+            {11,22,50,72,82},{4,25,32,51,77},{14,35,42,66,90},
+            {2,15,44,70,85},{19,33,45,63,74},{3,27,55,65,89}};
+        byte a154[][]={{6,13,37,52,64},{8,26,39,69,83},{16,29,49,58,78},
+            {7,20,46,73,87},{24,34,57,60,88},{9,10,36,47,61},
+            {17,21,54,62,81},{28,40,56,71,86},{5,31,43,67,79}};
+        byte a155[][]={{13,24,54,60,80},{26,48,57,75,83},{5,30,49,62,77},
+            {7,21,40,74,81},{22,31,59,61,90},{8,14,34,41,65},
+            {12,36,42,68,82},{23,37,51,71,87},{1,15,45,56,72}};
+        byte a156[][]={{11,20,52,70,84},{9,27,33,58,78},{19,35,47,67,88},
+            {3,16,43,73,85},{18,38,46,64,76},{4,25,55,69,86},
+            {2,10,32,50,63},{6,28,39,66,89},{17,29,44,53,79}};
+        byte a157[][]={{24,30,54,61,80},{16,39,43,75,83},{1,19,44,62,79},
+            {4,11,45,63,77},{15,34,55,78,82},{22,38,56,67,87},
+            {20,40,51,71,85},{7,26,31,53,89},{9,12,36,46,69}};
+        byte a158[][]={{10,37,48,64,72},{18,23,50,76,81},{3,25,49,57,88},
+            {5,27,41,65,84},{13,32,42,68,70},{6,29,58,74,90},
+            {2,14,33,52,60},{8,21,35,66,73},{17,28,47,59,86}};
+        byte a159[][]={{4,15,31,51,62},{9,24,33,69,90},{16,27,47,55,79},
+            {13,22,52,77,80},{5,25,32,54,78},{14,39,43,63,86},
+            {11,34,48,66,83},{23,36,50,79,88},{6,18,49,57,76}};
+        byte a160[][]={{1,20,41,70,82},{26,30,56,65,87},{3,10,37,42,67},
+            {19,28,53,61,84},{29,40,58,72,89},{2,35,44,64,74},
+            {7,12,45,71,81},{17,38,46,60,75},{8,21,59,68,85}};
 
-        Carton c001=new Carton(1,a001);
-        Carton c002=new Carton(2,a002);
-        Carton c003=new Carton(3,a003);
-        Carton c004=new Carton(4,a004);
-        Carton c005=new Carton(5,a005);
-        Carton c006=new Carton(6,a006);
-        Carton c007=new Carton(7,a007);
-        Carton c008=new Carton(8,a008);
-        Carton c009=new Carton(9,a009);
-        Carton c010=new Carton(10,a010);
-        Carton c011=new Carton(11,a011);
-        Carton c012=new Carton(12,a012);
-        Carton c013=new Carton(13,a013);
-        Carton c014=new Carton(14,a014);
-        Carton c015=new Carton(15,a015);
-        Carton c016=new Carton(16,a016);
-        Carton c017=new Carton(17,a017);
-        Carton c018=new Carton(18,a018);
-        Carton c019=new Carton(19,a019);
-        Carton c020=new Carton(20,a020);
-        Carton c021=new Carton(21,a021);
-        Carton c022=new Carton(22,a022);
-        Carton c023=new Carton(23,a023);
-        Carton c024=new Carton(24,a024);
-        Carton c025=new Carton(25,a025);
-        Carton c026=new Carton(26,a026);
-        Carton c027=new Carton(27,a027);
-        Carton c028=new Carton(28,a028);
-        Carton c029=new Carton(29,a029);
-        Carton c030=new Carton(30,a030);
-        Carton c031=new Carton(31,a031);
-        Carton c032=new Carton(32,a032);
-        Carton c033=new Carton(33,a033);
-        Carton c034=new Carton(34,a034);
-        Carton c035=new Carton(35,a035);
-        Carton c036=new Carton(36,a036);
-        Carton c037=new Carton(37,a037);
-        Carton c038=new Carton(38,a038);
-        Carton c039=new Carton(39,a039);
-        Carton c040=new Carton(40,a040);
-        Carton c041=new Carton(41,a041);
-        Carton c042=new Carton(42,a042);
-        Carton c043=new Carton(43,a043);
-        Carton c044=new Carton(44,a044);
-        Carton c045=new Carton(45,a045);
-        Carton c046=new Carton(46,a046);
-        Carton c047=new Carton(47,a047);
-        Carton c048=new Carton(48,a048);
-        Carton c049=new Carton(49,a049);
-        Carton c050=new Carton(50,a050);
-        Carton c051=new Carton(51,a051);
-        Carton c052=new Carton(52,a052);
-        Carton c053=new Carton(53,a053);
-        Carton c054=new Carton(54,a054);
-        Carton c055=new Carton(55,a055);
-        Carton c056=new Carton(56,a056);
-        Carton c057=new Carton(57,a057);
-        Carton c058=new Carton(58,a058);
-        Carton c059=new Carton(59,a059);
-        Carton c060=new Carton(60,a060);
-        Carton c061=new Carton(61,a061);
-        Carton c062=new Carton(62,a062);
-        Carton c063=new Carton(63,a063);
-        Carton c064=new Carton(64,a064);
-        Carton c065=new Carton(65,a065);
-        Carton c066=new Carton(66,a066);
-        Carton c067=new Carton(67,a067);
-        Carton c068=new Carton(68,a068);
-        Carton c069=new Carton(69,a069);
-        Carton c070=new Carton(70,a070);
-        Carton c071=new Carton(71,a071);
-        Carton c072=new Carton(72,a072);
-        Carton c073=new Carton(73,a073);
-        Carton c074=new Carton(74,a074);
-        Carton c075=new Carton(75,a075);
-        Carton c076=new Carton(76,a076);
-        Carton c077=new Carton(77,a077);
-        Carton c078=new Carton(78,a078);
-        Carton c079=new Carton(79,a079);
-        Carton c080=new Carton(80,a080);
-        Carton c081=new Carton(81,a081);
-        Carton c082=new Carton(82,a082);
-        Carton c083=new Carton(83,a083);
-        Carton c084=new Carton(84,a084);
-        Carton c085=new Carton(85,a085);
-        Carton c086=new Carton(86,a086);
-        Carton c087=new Carton(87,a087);
-        Carton c088=new Carton(88,a088);
-        Carton c089=new Carton(89,a089);
-        Carton c090=new Carton(90,a090);
-        Carton c091=new Carton(91,a091);
-        Carton c092=new Carton(92,a092);
-        Carton c093=new Carton(93,a093);
-        Carton c094=new Carton(94,a094);
-        Carton c095=new Carton(95,a095);
-        Carton c096=new Carton(96,a096);
-        Carton c097=new Carton(97,a097);
-        Carton c098=new Carton(98,a098);
-        Carton c099=new Carton(99,a099);
-        Carton c100=new Carton(100,a100);
-        Carton c101=new Carton(101,a101);
-        Carton c102=new Carton(102,a102);
-        Carton c103=new Carton(103,a103);
-        Carton c104=new Carton(104,a104);
-        Carton c105=new Carton(105,a105);
-        Carton c106=new Carton(106,a106);
-        Carton c107=new Carton(107,a107);
-        Carton c108=new Carton(108,a108);
-        Carton c109=new Carton(109,a109);
-        Carton c110=new Carton(110,a110);
-        Carton c111=new Carton(111,a111);
-        Carton c112=new Carton(112,a112);
-        Carton c113=new Carton(113,a113);
-        Carton c114=new Carton(114,a114);
-        Carton c115=new Carton(115,a115);
-        Carton c116=new Carton(116,a116);
-        Carton c117=new Carton(117,a117);
-        Carton c118=new Carton(118,a118);
-        Carton c119=new Carton(119,a119);
-        Carton c120=new Carton(120,a120);
-        Carton c121=new Carton(121,a121);
-        Carton c122=new Carton(122,a122);
-        Carton c123=new Carton(123,a123);
-        Carton c124=new Carton(124,a124);
-        Carton c125=new Carton(125,a125);
-        Carton c126=new Carton(126,a126);
-        Carton c127=new Carton(127,a127);
-        Carton c128=new Carton(128,a128);
-        Carton c129=new Carton(129,a129);
-        Carton c130=new Carton(130,a130);
-        Carton c131=new Carton(131,a131);
-        Carton c132=new Carton(132,a132);
-        Carton c133=new Carton(133,a133);
-        Carton c134=new Carton(134,a134);
-        Carton c135=new Carton(135,a135);
-        Carton c136=new Carton(136,a136);
-        Carton c137=new Carton(137,a137);
-        Carton c138=new Carton(138,a138);
-        Carton c139=new Carton(139,a139);
-        Carton c140=new Carton(140,a140);
+        
+        
+        /*Carton c001=new Carton("",1,a001);
+        Carton c002=new Carton("",2,a002);
+        Carton c003=new Carton("",3,a003);
+        Carton c004=new Carton("",4,a004);
+        Carton c005=new Carton("",5,a005);
+        Carton c006=new Carton("",6,a006);
+        Carton c007=new Carton("",7,a007);
+        Carton c008=new Carton("",8,a008);
+        Carton c009=new Carton("",9,a009);
+        Carton c010=new Carton("",10,a010);
+        Carton c011=new Carton("",11,a011);
+        Carton c012=new Carton("",12,a012);
+        Carton c013=new Carton("",13,a013);
+        Carton c014=new Carton("",14,a014);
+        Carton c015=new Carton("",15,a015);
+        Carton c016=new Carton("",16,a016);
+        Carton c017=new Carton("",17,a017);
+        Carton c018=new Carton("",18,a018);
+        Carton c019=new Carton("",19,a019);
+        Carton c020=new Carton("",20,a020);
+        Carton c021=new Carton("",21,a021);
+        Carton c022=new Carton("",22,a022);
+        Carton c023=new Carton("",23,a023);
+        Carton c024=new Carton("",24,a024);
+        Carton c025=new Carton("",25,a025);
+        Carton c026=new Carton("",26,a026);
+        Carton c027=new Carton("",27,a027);
+        Carton c028=new Carton("",28,a028);
+        Carton c029=new Carton("",29,a029);
+        Carton c030=new Carton("",30,a030);
+        Carton c031=new Carton("",31,a031);
+        Carton c032=new Carton("",32,a032);
+        Carton c033=new Carton("",33,a033);
+        Carton c034=new Carton("",34,a034);
+        Carton c035=new Carton("",35,a035);
+        Carton c036=new Carton("",36,a036);
+        Carton c037=new Carton("",37,a037);
+        Carton c038=new Carton("",38,a038);
+        Carton c039=new Carton("",39,a039);
+        Carton c040=new Carton("",40,a040);
+        Carton c041=new Carton("",41,a041);
+        Carton c042=new Carton("",42,a042);
+        Carton c043=new Carton("",43,a043);
+        Carton c044=new Carton("",44,a044);
+        Carton c045=new Carton("",45,a045);
+        Carton c046=new Carton("",46,a046);
+        Carton c047=new Carton("",47,a047);
+        Carton c048=new Carton("",48,a048);
+        Carton c049=new Carton("",49,a049);
+        Carton c050=new Carton("",50,a050);
+        Carton c051=new Carton("",51,a051);
+        Carton c052=new Carton("",52,a052);
+        Carton c053=new Carton("",53,a053);
+        Carton c054=new Carton("",54,a054);
+        Carton c055=new Carton("",55,a055);
+        Carton c056=new Carton("",56,a056);
+        Carton c057=new Carton("",57,a057);
+        Carton c058=new Carton("",58,a058);
+        Carton c059=new Carton("",59,a059);
+        Carton c060=new Carton("",60,a060);
+        Carton c061=new Carton("",61,a061);
+        Carton c062=new Carton("",62,a062);
+        Carton c063=new Carton("",63,a063);
+        Carton c064=new Carton("",64,a064);
+        Carton c065=new Carton("",65,a065);
+        Carton c066=new Carton("",66,a066);
+        Carton c067=new Carton("",67,a067);
+        Carton c068=new Carton("",68,a068);
+        Carton c069=new Carton("",69,a069);
+        Carton c070=new Carton("",70,a070);
+        Carton c071=new Carton("",71,a071);
+        Carton c072=new Carton("",72,a072);
+        Carton c073=new Carton("",73,a073);
+        Carton c074=new Carton("",74,a074);
+        Carton c075=new Carton("",75,a075);
+        Carton c076=new Carton("",76,a076);
+        Carton c077=new Carton("",77,a077);
+        Carton c078=new Carton("",78,a078);
+        Carton c079=new Carton("",79,a079);
+        Carton c080=new Carton("",80,a080);
+        Carton c081=new Carton("",81,a081);
+        Carton c082=new Carton("",82,a082);
+        Carton c083=new Carton("",83,a083);
+        Carton c084=new Carton("",84,a084);
+        Carton c085=new Carton("",85,a085);
+        Carton c086=new Carton("",86,a086);
+        Carton c087=new Carton("",87,a087);
+        Carton c088=new Carton("",88,a088);
+        Carton c089=new Carton("",89,a089);
+        Carton c090=new Carton("",90,a090);
+        Carton c091=new Carton("",91,a091);
+        Carton c092=new Carton("",92,a092);
+        Carton c093=new Carton("",93,a093);
+        Carton c094=new Carton("",94,a094);
+        Carton c095=new Carton("",95,a095);
+        Carton c096=new Carton("",96,a096);
+        Carton c097=new Carton("",97,a097);
+        Carton c098=new Carton("",98,a098);
+        Carton c099=new Carton("",99,a099);
+        Carton c100=new Carton("",100,a100);
+        Carton c101=new Carton("",101,a101);
+        Carton c102=new Carton("",102,a102);
+        Carton c103=new Carton("",103,a103);
+        Carton c104=new Carton("",104,a104);
+        Carton c105=new Carton("",105,a105);
+        Carton c106=new Carton("",106,a106);
+        Carton c107=new Carton("",107,a107);
+        Carton c108=new Carton("",108,a108);
+        Carton c109=new Carton("",109,a109);
+        Carton c110=new Carton("",110,a110);
+        Carton c111=new Carton("",111,a111);
+        Carton c112=new Carton("",112,a112);
+        Carton c113=new Carton("",113,a113);
+        Carton c114=new Carton("",114,a114);
+        Carton c115=new Carton("",115,a115);
+        Carton c116=new Carton("",116,a116);
+        Carton c117=new Carton("",117,a117);
+        Carton c118=new Carton("",118,a118);
+        Carton c119=new Carton("",119,a119);
+        Carton c120=new Carton("",120,a120);
+        Carton c121=new Carton("",121,a121);
+        Carton c122=new Carton("",122,a122);
+        Carton c123=new Carton("",123,a123);
+        Carton c124=new Carton("",124,a124);
+        Carton c125=new Carton("",125,a125);
+        Carton c126=new Carton("",126,a126);
+        Carton c127=new Carton("",127,a127);
+        Carton c128=new Carton("",128,a128);
+        Carton c129=new Carton("",129,a129);
+        Carton c130=new Carton("",130,a130);
+        Carton c131=new Carton("",131,a131);
+        Carton c132=new Carton("",132,a132);
+        Carton c133=new Carton("",133,a133);
+        Carton c134=new Carton("",134,a134);
+        Carton c135=new Carton("",135,a135);
+        Carton c136=new Carton("",136,a136);
+        Carton c137=new Carton("",137,a137);
+        Carton c138=new Carton("",138,a138);
+        Carton c139=new Carton("",139,a139);
+        Carton c140=new Carton("",140,a140);
+        Carton c141=new Carton("",141,a141);
+        Carton c142=new Carton("",142,a142);
+        Carton c143=new Carton("",143,a143);
+        Carton c144=new Carton("",144,a144);
+        Carton c145=new Carton("",145,a145);
+        Carton c146=new Carton("",146,a146);
+        Carton c147=new Carton("",147,a147);
+        Carton c148=new Carton("",148,a148);
+        Carton c149=new Carton("",149,a149);
+        Carton c150=new Carton("",150,a150);
+        Carton c151=new Carton("",151,a151);
+        Carton c152=new Carton("",152,a152);
+        Carton c153=new Carton("",153,a153);
+        Carton c154=new Carton("",154,a154);
+        Carton c155=new Carton("",155,a155);
+        Carton c156=new Carton("",156,a156);
+        Carton c157=new Carton("",157,a157);
+        Carton c158=new Carton("",158,a158);
+        Carton c159=new Carton("",159,a159);
+        Carton c160=new Carton("",160,a160);*/
+        
+        
+        Carton c001=new Carton("Monica Molina",1,a001);
+        Carton c002=new Carton("Nicol Quiroga",2,a002);
+        Carton c003=new Carton("Melina Lucero",3,a003);
+        Carton c004=new Carton("Laura Lucero",4,a004);
+        Carton c005=new Carton("Mar Villavicencio",5,a005);
+        Carton c006=new Carton("Monica Molina",6,a006);
+        Carton c007=new Carton("Fernanda Perrone",7,a007);
+        Carton c008=new Carton("Patricia Lucero",8,a008);
+        Carton c009=new Carton("Gabriela Badiali",9,a009);
+        Carton c010=new Carton("Melina Lucero",10,a010);
+        Carton c011=new Carton("Laura Lucero",11,a011);
+        Carton c012=new Carton("Evelin Werner",12,a012);
+        Carton c013=new Carton("Nito",13,a013);
+        Carton c014=new Carton("Fernanda Perrone",14,a014);
+        Carton c015=new Carton("Laura Torres",15,a015);
+        Carton c016=new Carton("Gabriela Vidal",16,a016);
+        Carton c017=new Carton("Lola Rosales",17,a017);
+        Carton c018=new Carton("Graciela Miranda",18,a018);
+        Carton c019=new Carton("Patricia Lucero",19,a019);
+        Carton c020=new Carton("Juan Carlos Romero",20,a020);
+        Carton c021=new Carton("Fernanda Perrone",21,a021);
+        Carton c022=new Carton("Laura Lucero",22,a022);
+        Carton c023=new Carton("Victoria Fernandez",23,a023);
+        Carton c024=new Carton("Victoria Fernandez",24,a024);
+        Carton c025=new Carton("Victoria Fernandez",25,a025);
+        Carton c026=new Carton("Fabiana Quiroga",26,a026);
+        Carton c027=new Carton("Gabriela Badiali",27,a027);
+        Carton c028=new Carton("Melina Lucero",28,a028);
+        Carton c029=new Carton("Laura Lucero",29,a029);
+        Carton c030=new Carton("Fabiana Quiroga",30,a030);
+        Carton c031=new Carton("Fernanda Perrone",31,a031);
+        Carton c032=new Carton("Paula Vazquez",32,a032);
+        Carton c033=new Carton("Evelin Werner",33,a033);
+        Carton c034=new Carton("",34,a034);
+        Carton c035=new Carton("Valeria Ruggeri",35,a035);
+        Carton c036=new Carton("Valeria Ruggeri",36,a036);
+        Carton c037=new Carton("Melina Lucero",37,a037);
+        Carton c038=new Carton("Micaela Barroso",38,a038);
+        Carton c039=new Carton("Carla Nievas",39,a039);
+        Carton c040=new Carton("Fernanda Perrone",40,a040);
+        Carton c041=new Carton("Laura Torres",41,a041);
+        Carton c042=new Carton("Laura Torres",42,a042);
+        Carton c043=new Carton("Laura Torres",43,a043);
+        Carton c044=new Carton("Mar Villavicencio",44,a044);
+        Carton c045=new Carton("Alejandra Freire",45,a045);
+        Carton c046=new Carton("Maru6",46,a046);
+        Carton c047=new Carton("Gabriela Vidal",47,a047);
+        Carton c048=new Carton("Nito",48,a048);
+        Carton c049=new Carton("Lorena Olivera",49,a049);
+        Carton c050=new Carton("Lola Rosales",50,a050);
+        Carton c051=new Carton("",51,a051);
+        Carton c052=new Carton("Victoria Fernandez",52,a052);
+        Carton c053=new Carton("Juan Carlos Romero",53,a053);
+        Carton c054=new Carton("Lola Rosales",54,a054);
+        Carton c055=new Carton("Graciela Miranda",55,a055);
+        Carton c056=new Carton("Paula Vazquez",56,a056);
+        Carton c057=new Carton("Alejandra Freire",57,a057);
+        Carton c058=new Carton("Ricardo Lucero",58,a058);
+        Carton c059=new Carton("Ricardo Lucero",59,a059);
+        Carton c060=new Carton("Victoria Fernandez",60,a060);
+        Carton c061=new Carton("Sabrina Lucero",61,a061);
+        Carton c062=new Carton("Evelin Werner",62,a062);
+        Carton c063=new Carton("Yamila Ruggeri",63,a063);
+        Carton c064=new Carton("Yamila Ruggeri",64,a064);
+        Carton c065=new Carton("",65,a065);
+        Carton c066=new Carton("",66,a066);
+        Carton c067=new Carton("Claudia Sagr",67,a067);
+        Carton c068=new Carton("Lorena Olivera",68,a068);
+        Carton c069=new Carton("Lorena Olivera",69,a069);
+        Carton c070=new Carton("Carla Nievas",70,a070);
+        Carton c071=new Carton("Fernanda Perrone",71,a071);
+        Carton c072=new Carton("Monica Molina",72,a072);
+        Carton c073=new Carton("Juan Pablo Cruseño",73,a073);
+        Carton c074=new Carton("Fernanda Perrone",74,a074);
+        Carton c075=new Carton("Fernanda Perrone",75,a075);
+        Carton c076=new Carton("Melina Lucero",76,a076);
+        Carton c077=new Carton("Claudia Sagr",77,a077);
+        Carton c078=new Carton("Lorena Olivera",78,a078);
+        Carton c079=new Carton("Juan Carlos Romero",79,a079);
+        Carton c080=new Carton("Paula Vazquez",80,a080);
+        Carton c081=new Carton("Andres Villanueva",81,a081);
+        Carton c082=new Carton("Ines Quiroga",82,a082);
+        Carton c083=new Carton("Ines Quiroga",83,a083);
+        Carton c084=new Carton("",84,a084);
+        Carton c085=new Carton("Yamila Ruggeri",85,a085);
+        Carton c086=new Carton("Yamila Ruggeri",86,a086);
+        Carton c087=new Carton("Fabiana Quiroga",87,a087);
+        Carton c088=new Carton("Evelin Werner",88,a088);
+        Carton c089=new Carton("Luca",89,a089);
+        Carton c090=new Carton("Monica Molina",90,a090);
+        Carton c091=new Carton("Evelin Werner",91,a091);
+        Carton c092=new Carton("",92,a092);
+        Carton c093=new Carton("Paula Vazquez",93,a093);
+        Carton c094=new Carton("",94,a094);
+        Carton c095=new Carton("",95,a095);
+        Carton c096=new Carton("Claudia Sagr",96,a096);
+        Carton c097=new Carton("Fernanda Perrone",97,a097);
+        Carton c098=new Carton("",98,a098);
+        Carton c099=new Carton("Carla Nievas",99,a099);
+        Carton c100=new Carton("Monica Molina",100,a100);
+        Carton c101=new Carton("Micaela Barroso",101,a101);
+        Carton c102=new Carton("Fabiana Quiroga",102,a102);
+        Carton c103=new Carton("Claudia Sagr",103,a103);
+        Carton c104=new Carton("",104,a104);
+        Carton c105=new Carton("",105,a105);
+        Carton c106=new Carton("Paula Vazquez",106,a106);
+        Carton c107=new Carton("",107,a107);
+        Carton c108=new Carton("",108,a108);
+        Carton c109=new Carton("",109,a109);
+        Carton c110=new Carton("",110,a110);
+        Carton c111=new Carton("Carla Nievas",111,a111);
+        Carton c112=new Carton("Paula Vazquez",112,a112);
+        Carton c113=new Carton("Maru6",113,a113);
+        Carton c114=new Carton("David Cayo",114,a114);
+        Carton c115=new Carton("Valeria Ruggeri",115,a115);
+        Carton c116=new Carton("Valeria Ruggeri",116,a116);
+        Carton c117=new Carton("Fabiana Quiroga",117,a117);
+        Carton c118=new Carton("Eugenia Rosales",118,a118);
+        Carton c119=new Carton("",119,a119);
+        Carton c120=new Carton("David Cayo",120,a120);
+        Carton c121=new Carton("Claudia Sagr",121,a121);
+        Carton c122=new Carton("Lorena Olivera",122,a122);
+        Carton c123=new Carton("Sabrina Lucero",123,a123);
+        Carton c124=new Carton("Yamila Ruggeri",124,a124);
+        Carton c125=new Carton("",125,a125);
+        Carton c126=new Carton("",126,a126);
+        Carton c127=new Carton("Gabriela Vidal",127,a127);
+        Carton c128=new Carton("Gabriela Vidal",128,a128);
+        Carton c129=new Carton("Gabriela Vidal",129,a129);
+        Carton c130=new Carton("Laura Torres",130,a130);
+        Carton c131=new Carton("Lola Rosales",131,a131);
+        Carton c132=new Carton("Graciela Miranda",132,a132);
+        Carton c133=new Carton("Graciela Morales",133,a133);
+        Carton c134=new Carton("Laura Torres",134,a134);
+        Carton c135=new Carton("Laura Torres",135,a135);
+        Carton c136=new Carton("Laura Torres",136,a136);
+        Carton c137=new Carton("Laura Torres",137,a137);
+        Carton c138=new Carton("",138,a138);
+        Carton c139=new Carton("Laura Torres",139,a139);
+        Carton c140=new Carton("Lola Rosales",140,a140);
+        Carton c141=new Carton("Juan Carlos Romero",141,a141);
+        Carton c142=new Carton("",142,a142);
+        Carton c143=new Carton("",143,a143);
+        Carton c144=new Carton("",144,a144);
+        Carton c145=new Carton("Eugenia Rosales",145,a145);
+        Carton c146=new Carton("",146,a146);
+        Carton c147=new Carton("",147,a147);
+        Carton c148=new Carton("Laura Lucero",148,a148);
+        Carton c149=new Carton("Carla Nievas",149,a149);
+        Carton c150=new Carton("Fernanda Perrone",150,a150);
+        Carton c151=new Carton("",151,a151);
+        Carton c152=new Carton("Stella Orts",152,a152);
+        Carton c153=new Carton("",153,a153);
+        Carton c154=new Carton("",154,a154);
+        Carton c155=new Carton("Luca",155,a155);
+        Carton c156=new Carton("Claudia Sagr",156,a156);
+        Carton c157=new Carton("Valeria Ruggeri",157,a157);
+        Carton c158=new Carton("Juan Carlos Romero",158,a158);
+        Carton c159=new Carton("",159,a159);
+        Carton c160=new Carton("Paula Vazquez",160,a160);
         
         ArrayList<Carton> array= new ArrayList<>();
         
-        array.add(c001);
-        array.add(c002);
-        array.add(c003);
-        array.add(c004);
-        array.add(c005);
-        array.add(c006);
-        array.add(c007);
-        array.add(c008);
-        array.add(c009);
-        array.add(c010);
-        array.add(c011);
-        array.add(c012);
-        array.add(c013);
-        array.add(c014);
-        array.add(c015);
-        array.add(c016);
-        array.add(c017);
-        array.add(c018);
-        array.add(c019);
-        array.add(c020);
-        array.add(c021);
-        array.add(c022);
-        array.add(c023);
-        array.add(c024);
-        array.add(c025);
-        array.add(c026);
-        array.add(c027);
-        array.add(c028);
-        array.add(c029);
-        array.add(c030);
-        array.add(c031);
-        array.add(c032);
-        array.add(c033);
-        array.add(c034);
-        array.add(c035);
-        array.add(c036);
-        //array.add(c037);
-        array.add(c038);
-        //array.add(c039);
-        array.add(c040);
-        array.add(c041);
-        //array.add(c042);
-        array.add(c043);
-        array.add(c044);
-        //array.add(c045);
-        array.add(c046);
-        //array.add(c047);
-        array.add(c048);
-        array.add(c049);
-        array.add(c050);
-        array.add(c051);
-        array.add(c052);
-        array.add(c053);
-        array.add(c054);
-        array.add(c055);
-        array.add(c056);
-        //array.add(c057);
-        array.add(c058);
-        //array.add(c059);
-        array.add(c060);
-        array.add(c061);
-        array.add(c062);
-        array.add(c063);
-        array.add(c064);
-        array.add(c065);
-        array.add(c066);
-        //array.add(c067);
-        //array.add(c068);
-        array.add(c069);
-        //array.add(c070);
-        array.add(c071);
-        array.add(c072);
-        array.add(c073);
-        array.add(c074);
-        //array.add(c075);
-        array.add(c076);
-        array.add(c077);
-        array.add(c078);
-        //array.add(c079);
-        //array.add(c080);
-        //array.add(c081);
-        array.add(c082);
-        //array.add(c083);
-        //array.add(c084);
-        //array.add(c085);
-        array.add(c086);
-        //array.add(c087);
-        //array.add(c088);
-        //array.add(c089);
-        array.add(c090);
-        array.add(c091);
-        array.add(c092);
-        array.add(c093);
-        array.add(c094);
-        array.add(c095);
-        array.add(c096);
-        array.add(c097);
-        //array.add(c098);
-        array.add(c099);
-        array.add(c100);
-        array.add(c101);
-        //array.add(c102);
-        //array.add(c103);
-        array.add(c104);
-        //array.add(c105);
-        array.add(c106);
-        //array.add(c107);
-        array.add(c108);
-        array.add(c109);
-        array.add(c110);
-        array.add(c111);
-        array.add(c112);
-        array.add(c113);
-        //array.add(c114);
-        //array.add(c115);
-        //array.add(c116);
-        array.add(c117);
-        array.add(c118);
-        //array.add(c119);
-        //array.add(c120);
-        array.add(c121);
-        array.add(c122);
-        array.add(c123);
-        array.add(c124);
-        //array.add(c125);
-        array.add(c126);
-        array.add(c127);
-        //array.add(c128);
-        array.add(c129);
-        array.add(c130);
-        array.add(c131);
-        array.add(c132);
-        array.add(c133);
-        array.add(c134);
-        array.add(c135);
-        array.add(c136);
-        array.add(c137);
-        array.add(c138);
-        array.add(c139);
-        array.add(c140);
+        array.add(c001);array.add(c002);
+        array.add(c003);array.add(c004);
+        array.add(c005);array.add(c006);
+        array.add(c007);array.add(c008);
+        array.add(c009);array.add(c010);
+        array.add(c011);array.add(c012);
+        array.add(c013);array.add(c014);
+        array.add(c015);array.add(c016);
+        array.add(c017);array.add(c018);
+        array.add(c019);array.add(c020);
+        array.add(c021);array.add(c022);
+        array.add(c023);array.add(c024);
+        array.add(c025);array.add(c026);
+        array.add(c027);array.add(c028);
+        array.add(c029);array.add(c030);
+        array.add(c031);array.add(c032);
+        array.add(c033);array.add(c034);
+        array.add(c035);array.add(c036);
+        array.add(c037);array.add(c038);
+        array.add(c039);array.add(c040);
+        array.add(c041);array.add(c042);
+        array.add(c043);array.add(c044);
+        array.add(c045);array.add(c046);
+        array.add(c047);array.add(c048);
+        array.add(c049);array.add(c050);
+        array.add(c051);array.add(c052);
+        array.add(c053);array.add(c054);
+        array.add(c055);array.add(c056);
+        array.add(c057);array.add(c058);
+        array.add(c059);array.add(c060);
+        array.add(c061);array.add(c062);
+        array.add(c063);array.add(c064);
+        array.add(c065);array.add(c066);
+        array.add(c067);array.add(c068);
+        array.add(c069);array.add(c070);
+        array.add(c071);array.add(c072);
+        array.add(c073);array.add(c074);
+        array.add(c075);array.add(c076);
+        array.add(c077);array.add(c078);
+        array.add(c079);array.add(c080);
+        array.add(c081);array.add(c082);
+        array.add(c083);array.add(c084);
+        array.add(c085);array.add(c086);
+        array.add(c087);array.add(c088);
+        array.add(c089);array.add(c090);
+        array.add(c091);array.add(c092);
+        array.add(c093);array.add(c094);
+        array.add(c095);array.add(c096);
+        array.add(c097);array.add(c098);
+        array.add(c099);array.add(c100);
+        array.add(c101);array.add(c102);
+        array.add(c103);array.add(c104);
+        array.add(c105);array.add(c106);
+        array.add(c107);array.add(c108);
+        array.add(c109);array.add(c110);
+        array.add(c111);array.add(c112);
+        array.add(c113);array.add(c114);
+        array.add(c115);array.add(c116);
+        array.add(c117);array.add(c118);
+        array.add(c119);array.add(c120);
+        array.add(c121);array.add(c122);
+        array.add(c123);array.add(c124);
+        array.add(c125);array.add(c126);
+        array.add(c127);array.add(c128);
+        array.add(c129);array.add(c130);
+        array.add(c131);array.add(c132);
+        array.add(c133);array.add(c134);
+        array.add(c135);array.add(c136);
+        array.add(c137);array.add(c138);
+        array.add(c139);array.add(c140);
+        array.add(c141);array.add(c142);
+        array.add(c143);array.add(c144);
+        array.add(c145);array.add(c146);
+        array.add(c147);array.add(c148);
+        array.add(c149);array.add(c150);
+        array.add(c151);array.add(c152);
+        array.add(c153);array.add(c154);
+        array.add(c155);array.add(c156);
+        array.add(c157);array.add(c158);
+        array.add(c159);array.add(c160);
+        
+        ArrayList<Carton> array2= new ArrayList<>();
+        
+        for (int i = 0; i < array.size(); i++) {
+            if(!array.get(i).getNombre().equals("")){
+                array2.add(array.get(i));
+            }
+        }
+        
         ArrayList <Byte> placa=new ArrayList<>();
         
         String grilla[]={"x","x","x","x","x","x","x","x","x","x",
@@ -742,7 +934,6 @@ public class MAIN {
                 placa.add(num); 
             }
                         
-            
             if(num==-1){
                 for (int i = 0; i < placa.size(); i++) {
                     for (int j = 0; j <grilla.length; j++) {
@@ -759,22 +950,22 @@ public class MAIN {
                 }
                 System.out.println("");
             }
-            for (int i = 0; i <array.size(); i++) {
-                array.get(i).marcador(num);
+            for (int i = 0; i <array2.size(); i++) {
+                array2.get(i).marcador(num);
                 if(contTerna>0){
-                    terna=array.get(i).buscaTerna();
+                    terna=array2.get(i).buscaTerna();
                     if(terna){
                         ternaFinal=true;
                     }
                 }
                 if (contTerna<=0 && contQuintina>0){
-                    quintina=array.get(i).buscaQuintina(); 
+                    quintina=array2.get(i).buscaQuintina(); 
                     if(quintina){
                         quintinaFinal=true;
                     }
                 }
                 if (contQuintina<=0 && contLleno>0){
-                    lleno=array.get(i).buscaLleno();
+                    lleno=array2.get(i).buscaLleno();
                     if(lleno){
                         llenoFinal=true;
                     }
@@ -795,7 +986,7 @@ public class MAIN {
             if (contTerna==0) {
                 System.out.println("\n\nDesea buscar otra terna?");
                 String respuesta=leer.next();
-                if(respuesta.equals("si")){
+                if(respuesta.equalsIgnoreCase("si")){
                     contTerna=1;
                 }else{
                     contTerna=-1;
@@ -803,7 +994,7 @@ public class MAIN {
             } else if (contQuintina==0) {
                 System.out.println("\n\nDesea buscar otra quintina?");
                 String respuesta=leer.next();
-                if(respuesta.equals("si")){
+                if(respuesta.equalsIgnoreCase("si")){
                     contQuintina=1;
                 }else{
                     contQuintina=-1;
@@ -811,7 +1002,7 @@ public class MAIN {
             } else if (contLleno==0) {
                 System.out.println("\n\nDesea buscar otro carton lleno?");
                 String respuesta=leer.next();
-                if(respuesta.equals("si")){
+                if(respuesta.equalsIgnoreCase("si")){
                     contLleno=1;
                 }else{
                     contLleno=-1;
@@ -820,5 +1011,3 @@ public class MAIN {
         }while(contLleno>0);
     }   
 }
-
-
