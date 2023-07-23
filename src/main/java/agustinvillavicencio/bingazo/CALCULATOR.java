@@ -33,11 +33,11 @@ public class CALCULATOR {
         float ganancia=(pozoTotal*26/100)-pozoSorteo;
         if (cartones<=100) {
             System.out.println("\nPozo total: $"+pozoTotal);
-            System.out.println("\nPozo para 1° Carton Lleno: $"+pozoLleno*0.525);
-            System.out.println("Pozo para 2° Carton Lleno: $"+pozoLleno*0.35);
+            System.out.println("\nPozo para 1° Carton Lleno: $"+df.format(pozoLleno*0.525));
+            System.out.println("Pozo para 2° Carton Lleno: $"+df.format(pozoLleno*0.35));
             System.out.println("Pozo para Acumulado: $"+pozoLleno*0.125);
-            System.out.println("\nPozo para 1° Quintina: $"+pozoQuintina/2);
-            System.out.println("Pozo para 2° Quintina: $"+pozoQuintina/2);
+            System.out.println("\nPozo para 1° Quintina: $"+df.format(pozoQuintina*0.5));
+            System.out.println("Pozo para 2° Quintina: $"+df.format(pozoQuintina*0.5));
             System.out.println("\nPozo para 1° Terna: $"+df.format(pozoTerna*0.555555));
             System.out.println("Pozo para 2° Terna: $"+df.format(pozoTerna*0.444444));
             System.out.println("Pozo para Sorteo: $"+pozoSorteo);

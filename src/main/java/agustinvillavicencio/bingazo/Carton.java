@@ -4,6 +4,7 @@ package agustinvillavicencio.bingazo;
 
  // @author Agustin Villa
  
+//La clase se llama Carton pero se refiere a una serie en realidad, mala mia.
 public class Carton {
     private int numero;
     private String nombre;
@@ -30,6 +31,7 @@ public class Carton {
     private boolean lleno2;
     private boolean lleno3;
 
+    //Constructor
     public Carton(String nombre,int numero,byte[][] numeros) {
         this.nombre=nombre;
         this.numero=numero;
@@ -57,6 +59,7 @@ public class Carton {
         this.lleno3 = false;
     }
 
+    //Getters y Setters. Creo que no los uso nunca, tengo que revisar para saber si eliminarlos.
     public String getNombre() {
         return nombre;
     }
@@ -248,6 +251,8 @@ public class Carton {
     public void setCartonLleno1(boolean cartonLleno1) {
         this.lleno1 = cartonLleno1;
     }
+    
+    //La funcion mas importante del programa. Si algun numero coincide con el numero dictado, se iguala a 0. De esta forma queda marcado.
     public void marcador(byte num){
         for (int i = 0; i < numeros.length; i++) {
             for (int j = 0; j <numeros[0].length; j++) {
@@ -259,14 +264,18 @@ public class Carton {
         }
     }
   
+    //Buscador de terna
     public boolean buscaTerna(){
         byte cont=0;
         boolean terna=false;
+        
         for (int i = 0; i < numeros.length; i++) {
             cont=0;
             for (int j = 0; j <numeros[0].length; j++) {
+                //Aqui se revisa cuantos 0 se encuentran en una linea y se van acumulando en "cont".
                 if(numeros[i][j]==0){
                     cont++;
+                    //Si "cont" llega a valer 3, entonces se muestra por pantalla la serie ganadora, el dueño, y en que fila se gano. Esa terna queda marcada porque en este bingo, en la fila que se hizo terna no se puede cantar quitina.
                     if(cont==3){
                         if(i==0 && !terna1){
                             System.out.println("\n-------------------------");
@@ -356,21 +365,24 @@ public class Carton {
         }
         return terna;
     }
+    //Buscador de quintina
     public boolean buscaQuintina(){
         boolean quintina=false;
         byte cont=0,faltante=0;
+        
         for (int i = 0; i < numeros.length; i++) {
             cont=0;
             faltante=0;
+            //Aqui se revisa cuantos 0 se encuentran en una linea y se van acumulando en "cont".
             for (int j = 0; j <numeros[0].length; j++) {
-                
+                //"Faltante" es una variable creada para saber que numero esta faltando para hacer Quintina
                 if(numeros[i][j]!=0){
                     faltante=numeros[i][j];
                 }
                 if(numeros[i][j]==0){
                     cont++;
                 }
-                
+                //Cuando el "cont" lelga a 5, se muestra por pantalla que numero de serie fue la que gano, en que fila y al dueño de la serie.
                 if(cont==5){
                     if(i==0 && !terna1 && !quintina1){
                         System.out.println("\n--------------------------");
@@ -445,7 +457,8 @@ public class Carton {
                         quintina9=true; 
                         quintina=true; 
                     }
-                    
+                
+                //Aqui es donde se usa "faltante". Se muestra por pantalla numero de serie, dueño y que numero le falta para cantar Quintina.    
                 }else if(cont==4 && faltante!=0){
                     if(i==0 && !terna1 && !quintina1){
                         System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
@@ -481,18 +494,20 @@ public class Carton {
         return quintina;
     }
     
+    //Buscador de Carton Lleno
     public boolean buscaLleno(){
         boolean lleno=false;
         byte cont=0,faltante=0;
         if(!lleno1){
             for (int i = 0; i < 3; i++) {
                 for (int j = 0; j <5; j++) {
-                    
+                    //Misma forma de operar que con la quintina. "Faltante" es el numero que le falta a la serie para ganar.
                     if(numeros[i][j]!=0){
                         faltante=numeros[i][j];
                     }else{
                         cont++;
                     }
+                    //Si "contador" llega a 15, Se muestra por pantalla numero de serie que gano y el dueño.
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 1º carton" );
@@ -500,6 +515,7 @@ public class Carton {
                         System.out.println("--------------------------\n");
                         lleno1=true; 
                         lleno=true;
+                    //"Faltante" que sirve para saber quienes estan a un numero de ganar.
                     }else if(cont==14 && faltante!=0){
                         System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
