@@ -25,35 +25,35 @@ public class CALCULATOR {
     
     public static void calculos(int cartones){
         DecimalFormat df = new DecimalFormat("#.00");
-        float pozoTotal=cartones*400;
+        float pozoTotal=cartones*700;
         float pozoLleno=pozoTotal*50/100;
         float pozoQuintina=pozoTotal*15/100;
         float pozoTerna=pozoTotal*9/100;
-        float pozoSorteo=1600;
+        float pozoSorteo=1400;
         float ganancia=(pozoTotal*26/100)-pozoSorteo;
-        if (cartones<=100) {
+        if (cartones<=50) {
             System.out.println("\nPozo total: $"+pozoTotal);
-            System.out.println("\nPozo para 1° Carton Lleno: $"+df.format(pozoLleno*0.525));
-            System.out.println("Pozo para 2° Carton Lleno: $"+df.format(pozoLleno*0.35));
-            System.out.println("Pozo para Acumulado: $"+pozoLleno*0.125);
-            System.out.println("\nPozo para 1° Quintina: $"+df.format(pozoQuintina*0.5));
-            System.out.println("Pozo para 2° Quintina: $"+df.format(pozoQuintina*0.5));
-            System.out.println("\nPozo para 1° Terna: $"+df.format(pozoTerna*0.555555));
-            System.out.println("Pozo para 2° Terna: $"+df.format(pozoTerna*0.444444));
+            System.out.println("\nPozo para 1° Carton Lleno: $"+df.format(pozoLleno*0.514287));
+            System.out.println("Pozo para 2° Carton Lleno: $"+df.format(pozoLleno*0.371428));
+            System.out.println("Pozo para Acumulado: $"+df.format(pozoLleno*0.114285));
+            System.out.println("\nPozo para 1° Quintina: $"+df.format(pozoQuintina*0.576924));
+            System.out.println("Pozo para 2° Quintina: $"+df.format(pozoQuintina*0.423076));
+            System.out.println("\nPozo para 1° Terna: $"+df.format(pozoTerna*0.516129));
+            System.out.println("Pozo para 2° Terna: $"+df.format(pozoTerna*0.483871));
             System.out.println("Pozo para Sorteo: $"+pozoSorteo);
             System.out.println("\nGanancia: $"+ganancia);
         }else{
             System.out.println("\nPozo total: $"+pozoTotal);
-            System.out.println("\nPozo para 1° Carton Lleno: $10500");
-            System.out.println("Pozo para 2° Carton Lleno: $7000");
-            System.out.println("Pozo para Acumulado: $2500");
+            System.out.println("\nPozo para 1° Carton Lleno: $9000");
+            System.out.println("Pozo para 2° Carton Lleno: $6500");
+            System.out.println("Pozo para Acumulado: $2000");
             System.out.println("\nPozo para 1° Quintina: $3000");
-            System.out.println("Pozo para 2° Quintina: $3000");
-            System.out.println("\nPozo para 1° Terna: $2000");
-            System.out.println("Pozo para 2° Terna: $1600");
-            System.out.println("Pozo para Sorteo: $1600");
+            System.out.println("Pozo para 2° Quintina: $2200");
+            System.out.println("\nPozo para 1° Terna: $1600");
+            System.out.println("Pozo para 2° Terna: $1500");
+            System.out.println("Pozo para Sorteo: $1400");
             System.out.println("\nGanancia: $"+ganancia);
-            System.out.println("Sobrante: $"+((pozoLleno-20000)+(pozoQuintina-6000)+(pozoTerna-3600)));
+            System.out.println("Sobrante: $"+((pozoLleno-17500)+(pozoQuintina-5200)+(pozoTerna-3100)));
         }
     }
 }

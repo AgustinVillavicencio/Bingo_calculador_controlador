@@ -4,6 +4,7 @@ package agustinvillavicencio.bingazo;
 // @author Agustin Villavicencio
 public class CartonSix {
     private int numero;
+    private String nombre;
     private byte[][]numeros;
     private boolean terna1;
     private boolean terna2;
@@ -48,8 +49,8 @@ public class CartonSix {
     private boolean lleno5;
     private boolean lleno6;
 
-    public CartonSix(int numero,byte[][] numeros) {
-        
+    public CartonSix(String nombre,int numero,byte[][] numeros) {
+        this.nombre=nombre;
         this.numero=numero;
         this.numeros = numeros;
         this.terna1 = false;
@@ -95,6 +96,14 @@ public class CartonSix {
         this.lleno5 = false;
         this.lleno6 = false;
         
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public int getNumero() {
@@ -494,8 +503,9 @@ public class CartonSix {
                     if(cont==3){
                         if(i==0 && !terna1){
                             System.out.println("\n-------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en serie Nº"+numero);
                             System.out.println(" , fila 1");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna1=true; 
                             terna=true;
@@ -504,6 +514,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 2");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna2=true; 
                             terna=true;
@@ -512,6 +523,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 3");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna3=true; 
                             terna=true;
@@ -520,6 +532,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 4");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna4=true; 
                             terna=true;
@@ -528,6 +541,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 5");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna5=true; 
                             terna=true;
@@ -536,6 +550,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 6");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna6=true; 
                             terna=true;
@@ -544,6 +559,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 7");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna7=true; 
                             terna=true;
@@ -552,6 +568,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 8");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna8=true; 
                             terna=true;
@@ -560,6 +577,7 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 9");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
                             terna9=true; 
                             terna=true;
@@ -568,72 +586,81 @@ public class CartonSix {
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 10");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna10=true; 
                             terna=true;
                             break;
                         }else if(i==10 && !terna11){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 11");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna11=true; 
                             terna=true;
                             break;
                         }else if(i==11 && !terna12){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 12");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna12=true; 
                             terna=true;
                             break;
                         }else if(i==12 && !terna13){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 13");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna13=true; 
                             terna=true;
                             break;
                         }else if(i==13 && !terna14){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 14");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna14=true; 
                             terna=true;
                             break;
                         }else if(i==14 && !terna15){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 15");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna15=true; 
                             terna=true;
                             break;
                         }else if(i==15 && !terna16){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 16");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna16=true; 
                             terna=true;
                             break;
                         }else if(i==16 && !terna17){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 17");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna17=true; 
                             terna=true;
                             break;
                         }else if(i==17 && !terna18){
                             System.out.println("\n--------------------------");
                             System.out.print("TERNA!! en carton Nº"+numero);
                             System.out.println(" , fila 18");
+                            System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
-                            terna9=true; 
+                            terna18=true; 
                             terna=true;
                             break;
                         }                                
@@ -663,6 +690,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 1");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina1=true; 
                         quintina=true;
@@ -670,6 +698,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 2");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina2=true; 
                         quintina=true;
@@ -677,6 +706,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 3");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina3=true; 
                         quintina=true;
@@ -684,6 +714,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 4");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina4=true; 
                         quintina=true;
@@ -691,6 +722,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 5");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina5=true; 
                         quintina=true;
@@ -698,6 +730,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 6");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina6=true; 
                         quintina=true;
@@ -705,6 +738,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 7");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina7=true; 
                         quintina=true;
@@ -712,6 +746,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 8");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina8=true; 
                         quintina=true;
@@ -719,6 +754,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 9");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina9=true; 
                         quintina=true; 
@@ -726,6 +762,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 10");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina10=true; 
                         quintina=true;
@@ -733,6 +770,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 11");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina11=true; 
                         quintina=true;
@@ -740,6 +778,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 12");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina12=true; 
                         quintina=true;
@@ -747,6 +786,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 13");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina13=true; 
                         quintina=true;
@@ -754,6 +794,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 14");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina14=true; 
                         quintina=true;
@@ -761,6 +802,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 15");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina15=true; 
                         quintina=true;
@@ -768,6 +810,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 16");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina16=true; 
                         quintina=true;
@@ -775,6 +818,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 17");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina17=true; 
                         quintina=true;
@@ -782,6 +826,7 @@ public class CartonSix {
                         System.out.println("\n--------------------------");
                         System.out.print("QUINTINA!! en carton Nº"+numero);
                         System.out.println(" , fila 18");
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         quintina18=true; 
                         quintina=true;
@@ -789,58 +834,58 @@ public class CartonSix {
                     
                 }else if(cont==4 && faltante!=0){
                     if(i==0 && !quintina1){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==1 && !quintina2){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==2 && !quintina3){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==3 && !quintina4){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==4 && !quintina5){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==5 && !quintina6){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==6 && !quintina7){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==7 && !quintina8){
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==8 && !quintina9){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==9 && !quintina10){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==10 && !quintina11){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==11 && !quintina12){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==12 && !quintina13){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==13 && !quintina14){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==14 && !quintina15){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==15 && !quintina16){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==16 && !quintina17){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==17 && !quintina18){  
-                        System.out.print("**(Casi Quintina. Nº"+numero);
+                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -864,11 +909,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 1º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno1=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -888,11 +934,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 2º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno2=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     } 
                 }
@@ -912,11 +959,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 3º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno3=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -936,11 +984,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 4º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno4=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -960,11 +1009,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 5º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno3=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -984,11 +1034,12 @@ public class CartonSix {
                     if(cont==15){
                         System.out.println("\n--------------------------");
                         System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 6º carton" );
+                        System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno3=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero);
+                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }

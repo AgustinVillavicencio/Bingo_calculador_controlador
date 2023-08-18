@@ -279,7 +279,7 @@ public class Carton {
                     if(cont==3){
                         if(i==0 && !terna1){
                             System.out.println("\n-------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 1");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -288,7 +288,7 @@ public class Carton {
                             break;
                         }else if(i==1 && !terna2){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 2");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -297,7 +297,7 @@ public class Carton {
                             break;
                         }else if(i==2 && !terna3){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 3");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -306,7 +306,7 @@ public class Carton {
                             break;
                         }else if(i==3 && !terna4){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 4");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -315,7 +315,7 @@ public class Carton {
                             break;
                         }else if(i==4 && !terna5){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 5");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -324,7 +324,7 @@ public class Carton {
                             break;
                         }else if(i==5 && !terna6){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 6");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -333,7 +333,7 @@ public class Carton {
                             break;
                         }else if(i==6 && !terna7){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 7");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -342,7 +342,7 @@ public class Carton {
                             break;
                         }else if(i==7 && !terna8){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 8");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -351,7 +351,7 @@ public class Carton {
                             break;
                         }else if(i==8 && !terna9){
                             System.out.println("\n--------------------------");
-                            System.out.print("TERNA!! en carton Nº"+numero);
+                            System.out.print("TERNA!! en carton FREE Nº"+numero);
                             System.out.println(" , fila 9");
                             System.out.println("Dueño/a: "+nombre);
                             System.out.println("--------------------------\n");
@@ -386,7 +386,7 @@ public class Carton {
                 if(cont==5){
                     if(i==0 && !terna1 && !quintina1){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 1");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -394,7 +394,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==1 && !terna2 && !quintina2){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 2");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -402,7 +402,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==2 && !terna3 && !quintina3){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 3");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -410,7 +410,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==3 && !terna4 && !quintina4){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 4");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -418,7 +418,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==4 && !terna5 && !quintina5){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 5");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -426,7 +426,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==5 && !terna6 && !quintina6){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 6");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -434,7 +434,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==6 && !terna7 && !quintina7){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 7");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -442,7 +442,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==7 && !terna8 && !quintina8){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 8");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -450,7 +450,7 @@ public class Carton {
                         quintina=true;
                     }else if(i==8 && !terna9 && !quintina9){
                         System.out.println("\n--------------------------");
-                        System.out.print("QUINTINA!! en carton Nº"+numero);
+                        System.out.print("QUINTINA!! en carton FREE Nº"+numero);
                         System.out.println(" , fila 9");
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
@@ -461,31 +461,31 @@ public class Carton {
                 //Aqui es donde se usa "faltante". Se muestra por pantalla numero de serie, dueño y que numero le falta para cantar Quintina.    
                 }else if(cont==4 && faltante!=0){
                     if(i==0 && !terna1 && !quintina1){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==1 && !terna2 && !quintina2){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==2 && !terna3 && !quintina3){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==3 && !terna4 && !quintina4){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==4 && !terna5 && !quintina5){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==5 && !terna6 && !quintina6){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==6 && !terna7 && !quintina7){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==7 && !terna8 && !quintina8){
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==8 && !terna9 && !quintina9){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi Quintina.FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -510,14 +510,14 @@ public class Carton {
                     //Si "contador" llega a 15, Se muestra por pantalla numero de serie que gano y el dueño.
                     if(cont==15){
                         System.out.println("\n--------------------------");
-                        System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 1º carton" );
+                        System.out.println("CARTON LLENO!! Serie FREE Nº"+numero+" , 1º carton" );
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno1=true; 
                         lleno=true;
                     //"Faltante" que sirve para saber quienes estan a un numero de ganar.
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi BINGO. FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
@@ -536,13 +536,13 @@ public class Carton {
                     }
                     if(cont==15){
                         System.out.println("\n--------------------------");
-                        System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 2º carton" );
+                        System.out.println("CARTON LLENO!! Serie FREE Nº"+numero+" , 2º carton" );
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno2=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi BINGO. FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     } 
                 }
@@ -561,13 +561,13 @@ public class Carton {
                     }
                     if(cont==15){
                         System.out.println("\n--------------------------");
-                        System.out.println("CARTON LLENO!! Serie Nº"+numero+" , 3º carton" );
+                        System.out.println("CARTON LLENO!! Serie FREE Nº"+numero+" , 3º carton" );
                         System.out.println("Dueño/a: "+nombre);
                         System.out.println("--------------------------\n");
                         lleno3=true; 
                         lleno=true;
                     }else if(cont==14 && faltante!=0){
-                        System.out.print("**(Casi BINGO. Nº"+numero+" de "+nombre);
+                        System.out.print("**(Casi BINGO. FREE Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }
