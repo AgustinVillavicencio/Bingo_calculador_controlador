@@ -834,58 +834,58 @@ public class CartonSix {
                     
                 }else if(cont==4 && faltante!=0){
                     if(i==0 && !quintina1){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==1 && !quintina2){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==2 && !quintina3){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==3 && !quintina4){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==4 && !quintina5){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==5 && !quintina6){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==6 && !quintina7){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==7 && !quintina8){
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==8 && !quintina9){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==9 && !quintina10){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==10 && !quintina11){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==11 && !quintina12){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==12 && !quintina13){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==13 && !quintina14){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==14 && !quintina15){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==15 && !quintina16){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==16 && !quintina17){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }else if(i==17 && !quintina18){  
-                        System.out.print("**(Casi Quintina. Nº"+numero+"de "+nombre);
+                        System.out.print("**(Casi Quintina. Nº"+numero+" de "+nombre);
                         System.out.println(". Le falta el numero "+faltante+")**");
                     }
                 }

@@ -439,66 +439,66 @@ public class SeriesDe6 {
             {11,36,42,64,73},{12,21,57,76,80},{3,24,44,59,82},
             {6,20,46,66,81},{16,37,47,69,72},{8,22,52,75,87},
             {1,15,30,51,67},{7,28,34,68,71},{18,29,48,53,89}};
-        byte a071[][]={{5,10,41,66,83},{24,31,57,70,84},{18,39,45,68,79},
-            {6,25,52,72,80},{17,34,42,63,75},{28,35,59,64,86},
-            {1,13,4,67,82},{23,38,51,76,87},{14,26,46,53,78},
-            {11,20,48,56,89},{3,22,30,60,77},{8,15,36,58,69},
-            {7,12,40,73,81},{9,27,32,50,61},{29,49,55,74,90},
-            {2,33,43,71,85},{16,21,54,62,88},{4,19,37,47,65}};
-        byte a072[][]={{1,16,34,51,62},{7,20,35,66,81},{18,28,47,56,79},
-            {3,21,40,76,85},{22,32,53,63,88},{6,17,37,45,65},
-            {12,23,50,61,82},{27,41,59,71,90},{8,38,42,67,72},
-            {1,16,34,51,62},{7,20,35,66,81},{18,28,47,56,79},
-            {3,21,40,76,85},{22,32,53,63,88},{6,17,37,45,65},
-            {12,23,50,61,82},{27,41,59,71,90},{8,38,42,67,72}};
-        byte a073[][]={{16,21,54,61,83},{24,42,59,70,87},{3,38,48,65,76},
-            {8,28,41,78,81},{29,32,50,60,85},{9,13,36,47,67},
-            {11,34,40,62,84},{22,35,55,71,88},{5,19,49,56,75},
-            {12,20,53,73,82},{4,26,31,58,74},{15,33,45,68,90},
-            {6,10,44,77,86},{18,37,46,64,79},{7,27,52,69,89},
-            {1,14,30,51,63},{2,23,39,66,80},{17,25,43,57,72}};
-        byte a074[][]={{25,30,58,67,84},{15,32,41,76,88},{4,19,42,68,78},
-            {7,13,46,64,71},{16,31,52,73,86},{24,36,57,66,89},
-            {21,45,50,77,85},{5,26,33,53,90},{6,12,38,48,62},
-            {14,37,40,63,70},{17,27,54,72,80},{1,29,49,59,83},
-            {8,22,43,65,82},{18,34,47,69,74},{9,23,56,75,87},
-            {2,10,35,51,60},{3,20,39,61,79},{11,28,44,55,81}};
-        byte a075[][]={{26,31,51,62,81},{11,38,43,73,82},{7,12,44,68,74},
-            {3,10,47,61,76},{17,32,55,79,85},{25,39,58,69,89},
-            {21,48,57,75,80},{4,28,33,59,87},{6,15,34,49,63},
-            {16,30,45,67,70},{18,22,53,72,83},{2,27,46,54,84},
-            {5,24,40,64,88},{19,35,41,66,77},{8,29,56,78,90},
-            {1,13,36,50,60},{9,20,37,65,71},{14,23,42,52,86}};
-        byte a076[][]={{28,33,53,60,81},{15,35,40,71,90},{1,17,44,65,74},
-            {5,10,49,63,78},{16,32,58,79,84},{22,38,59,68,89},
-            {25,42,55,70,85},{6,27,34,57,86},{8,14,36,46,62},
-            {12,30,43,67,75},{18,24,50,77,82},{3,26,47,52,87},
-            {2,23,41,66,80},{11,31,48,69,72},{7,29,54,73,88},
-            {4,13,37,51,61},{9,20,39,64,76},{19,21,45,56,83}};
-        byte a077[][]={{12,30,41,68,80},{23,38,53,75,84},{1,18,48,59,76},
-            {11,22,50,72,82},{4,25,32,51,77},{14,35,42,66,90},
-            {2,15,44,70,85},{19,33,45,63,74},{3,27,55,65,89},
-            {6,13,37,52,64},{8,26,39,69,83},{16,29,49,58,78},
-            {7,20,46,73,87},{24,34,57,60,88},{9,10,36,47,61},
-            {17,21,54,62,81},{28,40,56,71,86},{5,31,43,67,79}};
-        byte a078[][]={{13,24,54,60,80},{26,48,57,75,83},{5,30,49,62,77},
-            {7,21,40,74,81},{22,31,59,61,90},{8,14,34,41,65},
-            {12,36,42,68,82},{23,37,51,71,87},{1,15,45,56,72},
-            {11,20,52,70,84},{9,27,33,58,78},{19,35,47,67,88},
-            {3,16,43,73,85},{18,38,46,64,76},{4,25,55,69,86},
-            {2,10,32,50,63},{6,28,39,66,89},{17,29,44,53,79}};
-        byte a079[][]={{24,30,54,61,80},{16,39,43,75,83},{1,19,44,62,79},
-            {4,11,45,63,77},{15,34,55,78,82},{22,38,56,67,87},
-            {20,40,51,71,85},{7,26,31,53,89},{9,12,36,46,69},
-            {10,37,48,64,72},{18,23,50,76,81},{3,25,49,57,88},
-            {5,27,41,65,84},{13,32,42,68,70},{6,29,58,74,90},
-            {2,14,33,52,60},{8,21,35,66,73},{17,28,47,59,86}};
-        byte a080[][]={{4,15,31,51,62},{9,24,33,69,90},{16,27,47,55,79},
-            {13,22,52,77,80},{5,25,32,54,78},{14,39,43,63,86},
-            {11,34,48,66,83},{23,36,50,79,88},{6,18,49,57,76},
-            {1,20,41,70,82},{26,30,56,65,87},{3,10,37,42,67},
-            {19,28,53,61,84},{29,40,58,72,89},{2,35,44,64,74},
-            {7,12,45,71,81},{17,38,46,60,75},{8,21,59,68,85}};
+        byte a071[][]={{11,25,50,67,83},{26,41,53,74,86},{2,38,44,69,78},
+            {13,31,45,61,80},{28,34,54,75,81},{3,14,49,55,77},
+            {6,12,40,71,87},{15,35,46,60,76},{8,21,56,65,90},
+            {5,22,42,79,82},{24,32,57,62,88},{7,18,37,43,68},
+            {16,20,58,70,85},{4,29,33,59,73},{19,36,48,66,89},
+            {1,10,30,51,63},{9,23,39,64,84},{17,27,47,52,72}};
+        byte a072[][]={{1,10,40,66,84},{22,32,55,74,85},{19,25,45,56,76},
+            {8,20,53,70,82},{11,36,41,64,72},{29,39,58,67,89},
+            {5,37,42,71,81},{12,26,59,62,87},{7,14,38,47,68},
+            {2,13,46,60,80},{21,31,52,77,86},{18,33,48,65,79},
+            {15,27,44,50,90},{3,28,30,61,75},{9,17,35,57,63},
+            {4,16,43,73,83},{6,23,34,51,69},{24,49,54,78,88}};
+        byte a073[][]={{2,18,30,50,60},{5,20,34,69,88},{19,24,40,55,79},
+            {12,27,56,71,87},{7,28,36,57,73},{16,37,48,61,90},
+            {11,31,41,68,82},{22,38,53,72,86},{4,13,47,59,74},
+            {1,23,44,70,83},{26,35,54,65,89},{3,10,39,49,66},
+            {15,21,51,64,80},{25,42,52,76,85},{6,33,46,67,77},
+            {8,14,43,75,81},{17,32,45,62,78},{9,29,58,63,84}};
+        byte a074[][]={{22,34,51,60,85},{11,36,40,76,90},{1,15,41,66,77},
+            {27,46,56,74,86},{7,29,31,57,87},{8,17,39,47,63},
+            {3,12,44,61,78},{19,35,52,79,80},{24,38,54,64,82},
+            {5,23,43,67,81},{13,32,48,69,71},{9,25,58,73,83},
+            {14,33,42,65,70},{18,26,50,75,84},{4,28,45,59,88},
+            {2,10,30,53,62},{6,20,37,68,72},{16,21,49,55,89}};
+        byte a075[][]={{22,42,53,70,80},{2,24,30,57,88},{8,19,34,45,65},
+            {6,14,47,60,73},{16,31,54,78,85},{21,39,58,67,90},
+            {5,20,41,62,82},{11,32,46,63,75},{9,27,55,77,83},
+            {12,35,44,68,74},{13,26,56,79,84},{4,29,48,59,87},
+            {1,10,37,50,61},{3,23,38,66,72},{17,25,49,52,81},
+            {28,33,51,64,86},{15,36,40,71,89},{7,18,43,69,76}};
+        byte a076[][]={{13,21,51,64,83},{29,48,52,76,90},{6,30,49,69,79},
+            {10,32,45,67,80},{20,34,56,71,81},{9,18,47,59,77},
+            {5,11,44,73,82},{14,35,46,66,75},{7,23,58,68,88},
+            {3,27,42,70,85},{28,31,56,60,87},{4,17,38,43,61},
+            {15,22,54,72,84},{2,26,33,55,78},{19,36,40,62,86},
+            {1,12,37,53,63},{8,24,39,65,89},{16,25,41,57,74}};
+        byte a077[][]={{14,25,58,65,82},{29,44,59,72,89},{4,32,48,66,74},
+            {2,22,43,70,83},{23,35,56,63,84},{3,10,38,47,67},
+            {11,33,41,61,87},{28,37,54,76,88},{1,12,46,57,78},
+            {15,26,50,75,85},{8,27,30,52,77},{19,36,45,69,90},
+            {7,13,40,73,81},{17,31,42,60,79},{9,21,53,62,86},
+            {5,16,34,51,64},{6,20,39,68,80},{18,24,49,55,71}};
+        byte a078[][]={{3,10,30,53,61},{8,24,34,69,88},{15,27,45,55,71},
+            {16,23,50,70,81},{9,29,35,54,75},{19,37,46,65,85},
+            {11,36,40,60,83},{26,39,56,72,89},{5,14,43,57,77},
+            {2,21,41,73,82},{22,31,52,64,87},{6,18,32,48,68},
+            {12,25,58,62,80},{28,42,59,74,90},{4,33,44,63,79},
+            {1,13,47,76,84},{17,38,49,66,78},{7,20,51,67,86}};
+        byte a079[][]={{6,14,41,65,83},{27,39,50,70,87},{18,28,46,51,77},
+            {5,23,52,72,86},{16,34,47,63,76},{29,36,58,68,89},
+            {3,32,42,73,82},{10,22,54,64,85},{4,15,38,44,66},
+            {7,13,40,61,80},{21,35,55,74,90},{17,37,48,67,78},
+            {11,24,49,56,81},{8,26,30,60,71},{9,12,31,57,62},
+            {1,19,43,75,84},{2,20,33,53,69},{25,45,59,79,88}};
+        byte a080[][]={{24,45,50,72,87},{4,28,30,57,89},{6,19,35,48,60},
+            {5,10,46,62,70},{17,36,51,79,82},{21,38,52,65,83},
+            {7,22,40,63,81},{14,32,44,68,71},{9,27,56,78,88},
+            {15,39,41,64,74},{16,20,54,77,85},{1,29,49,58,86},
+            {2,11,31,53,67},{8,23,33,69,76},{12,26,42,59,84},
+            {25,34,55,61,80},{13,37,43,73,90},{3,18,47,66,75}};
         byte a081[][]={{17,21,51,65,80},{24,40,57,73,82},{9,34,46,66,79},
                     {5,26,42,72,85},{29,32,55,61,87},{7,14,37,49,64},
                     {11,31,43,62,81},{22,39,54,76,86},{4,15,45,58,78},
@@ -553,7 +553,7 @@ public class SeriesDe6 {
                     {7,12,43,61,82},{20,32,51,74,85},{13,34,49,66,78},
                     {16,23,48,55,89},{4,29,35,63,79},{9,18,36,59,68},
                     {6,11,40,72,83},{8,21,39,52,60},{28,44,54,76,84}};
-        byte a090[][]={{11,34,44,68,87},{24,35,53,71,89},{3,12,46,57,},
+        byte a090[][]={{11,34,44,68,87},{24,35,53,71,89},{3,12,46,57,76},
                     {15,21,51,70,81},{9,28,31,59,75},{18,37,43,65,83},
                     {5,10,45,72,82},{19,30,47,60,74},{8,23,56,63,84},
                     {2,13,33,52,67},{4,25,39,69,85},{16,27,49,55,73},
@@ -620,7 +620,7 @@ public class SeriesDe6 {
                     {1,14,40,70,84},{16,39,49,61,73},{3,29,58,65,87},
                     {2,11,36,53,60},{6,20,38,66,82},{15,22,45,56,76}};
 
-        byte f001[][]={{27,32,51,64,80},{12,33,44,70,84},{6,18,47,65,71},
+        /*byte f001[][]={{27,32,51,64,80},{12,33,44,70,84},{6,18,47,65,71},
             {3,11,45,60,76},{19,30,55,78,82},{22,35,59,62,86},
             {23,40,50,73,85},{8,29,31,52,87},{9,17,39,48,69}};
         byte f002[][]={{10,38,42,68,72},{16,20,54,75,81},{5,25,49,58,89},
@@ -664,8 +664,8 @@ public class SeriesDe6 {
             {3,10,45,71,89},{16,33,48,62,78},{6,27,50,64,90}};
         byte f015[][]={{3,20,54,73,84},{13,31,42,64,77},{27,34,55,65,88},
             {5,10,43,60,80},{25,33,58,76,82},{19,36,44,68,78},
-            {2,30,45,72,85},{11,23,52,61,87},{4,17,32,48,66}};
-        byte f016[][]={{14,22,40,51,86},{1,28,37,63,79},{6,16,38,53,69},
+            {2,30,45,72,85},{11,23,52,61,87},{4,17,32,48,66}};/*
+        /*byte f016[][]={{14,22,40,51,86},{1,28,37,63,79},{6,16,38,53,69},
             {8,15,41,70,83},{9,21,39,50,67},{24,46,56,74,90},
             {7,12,47,62,81},{26,35,57,71,89},{18,29,49,59,75}};
         byte f017[][]={{2,21,53,77,84},{16,31,47,65,78},{26,35,58,68,86},
@@ -682,109 +682,210 @@ public class SeriesDe6 {
             {1,18,40,71,82},{19,36,48,60,73},{8,24,54,63,85}};
         byte f021[][]={{29,33,53,61,80},{10,39,43,74,89},{8,13,48,63,78},
             {1,11,44,62,73},{12,31,52,76,81},{20,36,57,68,82},
-            {23,41,50,77,86},{2,27,37,54,90},{7,16,38,45,69}};
+            {23,41,50,77,86},{2,27,37,54,90},{7,16,38,45,69}};*/
         
-        
-        CartonSix c001=new CartonSix("Monica Molina",1,a001);
+        /*CartonSix c001=new CartonSix("",1,a001);
         CartonSix c002=new CartonSix("",2,a002);
         CartonSix c003=new CartonSix("",3,a003);
-        CartonSix c004=new CartonSix("Laura Lucero",4,a004);
-        CartonSix c005=new CartonSix("Johana Richard",5,a005);
+        CartonSix c004=new CartonSix("",4,a004);
+        CartonSix c005=new CartonSix("",5,a005);
         CartonSix c006=new CartonSix("",6,a006);
-        CartonSix c007=new CartonSix("Melina Lucero",7,a007);
-        CartonSix c008=new CartonSix("Graciela Miranda",8,a008);
-        CartonSix c009=new CartonSix("Gabriela Badiali",9,a009);
-        CartonSix c010=new CartonSix("Patricia Lucero",10,a010);
-        CartonSix c011=new CartonSix("Mar Villavicencio",11,a011);
-        CartonSix c012=new CartonSix("Tia Chaty",12,a012);
-        CartonSix c013=new CartonSix("Antonella Bermudez",13,a013);
-        CartonSix c014=new CartonSix("Fernanda Perrone",14,a014);
-        CartonSix c015=new CartonSix("Antonella Herrera",15,a015);
-        CartonSix c016=new CartonSix("Maru6",16,a016);
-        CartonSix c017=new CartonSix("Lola Rosales",17,a017);
-        CartonSix c018=new CartonSix("Gabriela Vidal",18,a018);
-        CartonSix c019=new CartonSix("Johana Richard",19,a019);
-        CartonSix c020=new CartonSix("Susana Rosales",20,a020);
-        CartonSix c021=new CartonSix("Claudia Sagr",21,a021);
-        CartonSix c022=new CartonSix("Fernanda Perrone",22,a022);
-        CartonSix c023=new CartonSix("Antonella Bermudez",23,a023);
+        CartonSix c007=new CartonSix("",7,a007);
+        CartonSix c008=new CartonSix("",8,a008);
+        CartonSix c009=new CartonSix("",9,a009);
+        CartonSix c010=new CartonSix("",10,a010);
+        CartonSix c011=new CartonSix("",11,a011);
+        CartonSix c012=new CartonSix("",12,a012);
+        CartonSix c013=new CartonSix("",13,a013);
+        CartonSix c014=new CartonSix("",14,a014);
+        CartonSix c015=new CartonSix("",15,a015);
+        CartonSix c016=new CartonSix("",16,a016);
+        CartonSix c017=new CartonSix("",17,a017);
+        CartonSix c018=new CartonSix("",18,a018);
+        CartonSix c019=new CartonSix("",19,a019);
+        CartonSix c020=new CartonSix("",20,a020);
+        CartonSix c021=new CartonSix("",21,a021);
+        CartonSix c022=new CartonSix("",22,a022);
+        CartonSix c023=new CartonSix("",23,a023);
         CartonSix c024=new CartonSix("",24,a024);
-        CartonSix c025=new CartonSix("Melina Lucero",25,a025);
-        CartonSix c026=new CartonSix("Tia Chaty",26,a026);
-        CartonSix c027=new CartonSix("Johana Lopez",27,a027);
+        CartonSix c025=new CartonSix("",25,a025);
+        CartonSix c026=new CartonSix("",26,a026);
+        CartonSix c027=new CartonSix("",27,a027);
         CartonSix c028=new CartonSix("",28,a028);
-        CartonSix c029=new CartonSix("Gabriela Vidal",29,a029);
-        CartonSix c030=new CartonSix("Claudia Sagr",30,a030);
+        CartonSix c029=new CartonSix("",29,a029);
+        CartonSix c030=new CartonSix("",30,a030);
         CartonSix c031=new CartonSix("",31,a031);
-        CartonSix c032=new CartonSix("Fabiana Quiroga",32,a032);
-        CartonSix c033=new CartonSix("Graciela Morales",33,a033);
+        CartonSix c032=new CartonSix("",32,a032);
+        CartonSix c033=new CartonSix("",33,a033);
         CartonSix c034=new CartonSix("",34,a034);
-        CartonSix c035=new CartonSix("Graciela Miranda",35,a035);
+        CartonSix c035=new CartonSix("",35,a035);
         CartonSix c036=new CartonSix("",36,a036);
         CartonSix c037=new CartonSix("",37,a037);
         CartonSix c038=new CartonSix("",38,a038);
         CartonSix c039=new CartonSix("",39,a039);
-        CartonSix c040=new CartonSix("Ricardo Lucero",40,a040);
-        CartonSix c041=new CartonSix("Ivon Duran",41,a041);
+        CartonSix c040=new CartonSix("",40,a040);
+        CartonSix c041=new CartonSix("",41,a041);
         CartonSix c042=new CartonSix("",42,a042);
         CartonSix c043=new CartonSix("",43,a043);
         CartonSix c044=new CartonSix("",44,a044);
         CartonSix c045=new CartonSix("",45,a045);
-        CartonSix c046=new CartonSix("Ines Quiroga",46,a046);
+        CartonSix c046=new CartonSix("",46,a046);
         CartonSix c047=new CartonSix("",47,a047);
-        CartonSix c048=new CartonSix("Fabiana Quiroga",48,a048);
-        CartonSix c049=new CartonSix("Victoria Fernandez",49,a049);
-        CartonSix c050=new CartonSix("Antonella Bermudez",50,a050);
+        CartonSix c048=new CartonSix("",48,a048);
+        CartonSix c049=new CartonSix("",49,a049);
+        CartonSix c050=new CartonSix("",50,a050);
         CartonSix c051=new CartonSix("",51,a051);
-        CartonSix c052=new CartonSix("Laura Lucero",52,a052);
+        CartonSix c052=new CartonSix("",52,a052);
         CartonSix c053=new CartonSix("",53,a053);
-        CartonSix c054=new CartonSix("Lola Rosales",54,a054);
-        CartonSix c055=new CartonSix("Claudia Herrera",55,a055);
+        CartonSix c054=new CartonSix("",54,a054);
+        CartonSix c055=new CartonSix("",55,a055);
         CartonSix c056=new CartonSix("",56,a056);
         CartonSix c057=new CartonSix("",57,a057);
         CartonSix c058=new CartonSix("",58,a058);
         CartonSix c059=new CartonSix("",59,a059);
-        CartonSix c060=new CartonSix("Carmen Miranda",60,a060);
-        CartonSix c061=new CartonSix("Lucia Gonzalez",61,a061);
+        CartonSix c060=new CartonSix("",60,a060);
+        CartonSix c061=new CartonSix("",61,a061);
         CartonSix c062=new CartonSix("",62,a062);
         CartonSix c063=new CartonSix("",63,a063);
-        CartonSix c064=new CartonSix("Yamila Ruggeri",64,a064);
+        CartonSix c064=new CartonSix("",64,a064);
         CartonSix c065=new CartonSix("",65,a065);
         CartonSix c066=new CartonSix("",66,a066);
-        CartonSix c067=new CartonSix("Ines Quiroga",67,a067);
+        CartonSix c067=new CartonSix("",67,a067);
         CartonSix c068=new CartonSix("",68,a068);
         CartonSix c069=new CartonSix("",69,a069);
-        CartonSix c070=new CartonSix("Nicol Quiroga",70,a070);
-        CartonSix c071=new CartonSix("Fernanda Perrone",71,a071);
+        CartonSix c070=new CartonSix("",70,a070);
+        CartonSix c071=new CartonSix("",71,a071);
         CartonSix c072=new CartonSix("",72,a072);
         CartonSix c073=new CartonSix("",73,a073);
         CartonSix c074=new CartonSix("",74,a074);
         CartonSix c075=new CartonSix("",75,a075);
         CartonSix c076=new CartonSix("",76,a076);
-        CartonSix c077=new CartonSix("Claudia Herrera",77,a077);
+        CartonSix c077=new CartonSix("",77,a077);
         CartonSix c078=new CartonSix("",78,a078);
-        CartonSix c079=new CartonSix("Angela Escudero",79,a079);
+        CartonSix c079=new CartonSix("",79,a079);
         CartonSix c080=new CartonSix("",80,a080);
-        CartonSix c081=new CartonSix("Ivon Duran",81,a081);
-        CartonSix c082=new CartonSix("Johana Lopez",82,a082);
+        CartonSix c081=new CartonSix("",81,a081);
+        CartonSix c082=new CartonSix("",82,a082);
         CartonSix c083=new CartonSix("",83,a083);
-        CartonSix c084=new CartonSix("Fernanda Perrone",84,a084);
+        CartonSix c084=new CartonSix("",84,a084);
         CartonSix c085=new CartonSix("",85,a085);
-        CartonSix c086=new CartonSix("Yamila Ruggeri",86,a086);
+        CartonSix c086=new CartonSix("",86,a086);
         CartonSix c087=new CartonSix("",87,a087);
-        CartonSix c088=new CartonSix("Claudia Herrera",88,a088);
+        CartonSix c088=new CartonSix("",88,a088);
         CartonSix c089=new CartonSix("",89,a089);
-        CartonSix c090=new CartonSix("Monica Rosales",90,a090);
-        CartonSix c091=new CartonSix("Antonella Bermudez",91,a091);
+        CartonSix c090=new CartonSix("",90,a090);
+        CartonSix c091=new CartonSix("",91,a091);
         CartonSix c092=new CartonSix("",92,a092);
-        CartonSix c093=new CartonSix("Stella Orts",93,a093);
+        CartonSix c093=new CartonSix("",93,a093);
         CartonSix c094=new CartonSix("",94,a094);
         CartonSix c095=new CartonSix("",95,a095);
         CartonSix c096=new CartonSix("",96,a096);
-        CartonSix c097=new CartonSix("Juan Carlos Romero",97,a097);
+        CartonSix c097=new CartonSix("",97,a097);
         CartonSix c098=new CartonSix("",98,a098);
         CartonSix c099=new CartonSix("",99,a099);
-        CartonSix c100=new CartonSix("Monica Molina",100,a100);
+        CartonSix c100=new CartonSix("",100,a100);*/
+        
+        CartonSix c001=new CartonSix("Monica Molina",1,a001);
+        CartonSix c002=new CartonSix("Antonella Herrera",2,a002);
+        CartonSix c003=new CartonSix("Gabriela Vidal",3,a003);
+        CartonSix c004=new CartonSix("Ines Quiroga",4,a004);
+        CartonSix c005=new CartonSix("Ines Quiroga",5,a005);
+        CartonSix c006=new CartonSix("Ricardo Lucero",6,a006);
+        CartonSix c007=new CartonSix("Jose",7,a007);
+        CartonSix c008=new CartonSix("Patricia Lucero",8,a008);
+        CartonSix c009=new CartonSix("Gabriela Badiali",9,a009);
+        CartonSix c010=new CartonSix("Patricia Lucero",10,a010);
+        CartonSix c011=new CartonSix("Mar Villavicencio",11,a011);
+        CartonSix c012=new CartonSix("Tia Chaty",12,a012);
+        CartonSix c013=new CartonSix("Laura Lucero",13,a013);
+        CartonSix c014=new CartonSix("Jose",14,a014);
+        CartonSix c015=new CartonSix("Susana Rosales",15,a015);
+        CartonSix c016=new CartonSix("Maru 6",16,a016);
+        CartonSix c017=new CartonSix("Matias Richard",17,a017);
+        CartonSix c018=new CartonSix("Fabiana Quiroga",18,a018);
+        CartonSix c019=new CartonSix("Ailin Villavicencio",19,a019);
+        CartonSix c020=new CartonSix("",20,a020);
+        CartonSix c021=new CartonSix("Juan Carlos Romero",21,a021);
+        CartonSix c022=new CartonSix("",22,a022);
+        CartonSix c023=new CartonSix("",23,a023);
+        CartonSix c024=new CartonSix("",24,a024);
+        CartonSix c025=new CartonSix("",25,a025);
+        CartonSix c026=new CartonSix("Tia Chaty",26,a026);
+        CartonSix c027=new CartonSix("",27,a027);
+        CartonSix c028=new CartonSix("",28,a028);
+        CartonSix c029=new CartonSix("",29,a029);
+        CartonSix c030=new CartonSix("",30,a030);
+        CartonSix c031=new CartonSix("",31,a031);
+        CartonSix c032=new CartonSix("Laura Lucero",32,a032);
+        CartonSix c033=new CartonSix("",33,a033);
+        CartonSix c034=new CartonSix("",34,a034);
+        CartonSix c035=new CartonSix("Matias Richard",35,a035);
+        CartonSix c036=new CartonSix("",36,a036);
+        CartonSix c037=new CartonSix("",37,a037);
+        CartonSix c038=new CartonSix("",38,a038);
+        CartonSix c039=new CartonSix("",39,a039);
+        CartonSix c040=new CartonSix("",40,a040);
+        CartonSix c041=new CartonSix("",41,a041);
+        CartonSix c042=new CartonSix("",42,a042);
+        CartonSix c043=new CartonSix("",43,a043);
+        CartonSix c044=new CartonSix("",44,a044);
+        CartonSix c045=new CartonSix("",45,a045);
+        CartonSix c046=new CartonSix("Juan Carlos Romero",46,a046);
+        CartonSix c047=new CartonSix("",47,a047);
+        CartonSix c048=new CartonSix("",48,a048);
+        CartonSix c049=new CartonSix("",49,a049);
+        CartonSix c050=new CartonSix("Monica Molina",50,a050);
+        CartonSix c051=new CartonSix("",51,a051);
+        CartonSix c052=new CartonSix("",52,a052);
+        CartonSix c053=new CartonSix("",53,a053);
+        CartonSix c054=new CartonSix("",54,a054);
+        CartonSix c055=new CartonSix("",55,a055);
+        CartonSix c056=new CartonSix("",56,a056);
+        CartonSix c057=new CartonSix("",57,a057);
+        CartonSix c058=new CartonSix("",58,a058);
+        CartonSix c059=new CartonSix("",59,a059);
+        CartonSix c060=new CartonSix("",60,a060);
+        CartonSix c061=new CartonSix("",61,a061);
+        CartonSix c062=new CartonSix("",62,a062);
+        CartonSix c063=new CartonSix("",63,a063);
+        CartonSix c064=new CartonSix("",64,a064);
+        CartonSix c065=new CartonSix("",65,a065);
+        CartonSix c066=new CartonSix("",66,a066);
+        CartonSix c067=new CartonSix("",67,a067);
+        CartonSix c068=new CartonSix("",68,a068);
+        CartonSix c069=new CartonSix("",69,a069);
+        CartonSix c070=new CartonSix("",70,a070);
+        CartonSix c071=new CartonSix("",71,a071);
+        CartonSix c072=new CartonSix("",72,a072);
+        CartonSix c073=new CartonSix("",73,a073);
+        CartonSix c074=new CartonSix("",74,a074);
+        CartonSix c075=new CartonSix("",75,a075);
+        CartonSix c076=new CartonSix("",76,a076);
+        CartonSix c077=new CartonSix("",77,a077);
+        CartonSix c078=new CartonSix("",78,a078);
+        CartonSix c079=new CartonSix("",79,a079);
+        CartonSix c080=new CartonSix("",80,a080);
+        CartonSix c081=new CartonSix("Ailin Villavicencio",81,a081);
+        CartonSix c082=new CartonSix("",82,a082);
+        CartonSix c083=new CartonSix("",83,a083);
+        CartonSix c084=new CartonSix("",84,a084);
+        CartonSix c085=new CartonSix("",85,a085);
+        CartonSix c086=new CartonSix("",86,a086);
+        CartonSix c087=new CartonSix("",87,a087);
+        CartonSix c088=new CartonSix("",88,a088);
+        CartonSix c089=new CartonSix("",89,a089);
+        CartonSix c090=new CartonSix("Ricardo Lucero",90,a090);
+        CartonSix c091=new CartonSix("Fabiana Quiroga",91,a091);
+        CartonSix c092=new CartonSix("",92,a092);
+        CartonSix c093=new CartonSix("",93,a093);
+        CartonSix c094=new CartonSix("",94,a094);
+        CartonSix c095=new CartonSix("",95,a095);
+        CartonSix c096=new CartonSix("",96,a096);
+        CartonSix c097=new CartonSix("",97,a097);
+        CartonSix c098=new CartonSix("Antonella Herrera",98,a098);
+        CartonSix c099=new CartonSix("Gabriela Vidal",99,a099);
+        CartonSix c100=new CartonSix("",100,a100);
+        
         
         ArrayList<CartonSix> array= new ArrayList<>();
         
@@ -848,30 +949,31 @@ public class SeriesDe6 {
             }
         }
         
-        Carton cf001=new Carton("Monica Molina",1,f001);
-        Carton cf002=new Carton("Lola Rosales",2,f002);
-        Carton cf003=new Carton("Yamila Ruggeri",3,f003);
-        Carton cf004=new Carton("Graciela Miranda",4,f004);
-        Carton cf005=new Carton("Claudia Sagr",5,f005);
-        Carton cf006=new Carton("Nicol Quiroga",6,f006);
-        Carton cf007=new Carton("Juan Carlos Romero",7,f007);
+        /*Carton cf001=new Carton("Laura Lucero",1,f001);
+        Carton cf002=new Carton("Juan Carlos Romero",2,f002);
+        Carton cf003=new Carton("Antonella Bermudez",3,f003);
+        Carton cf004=new Carton("Johana Richard",4,f004);
+        Carton cf005=new Carton("Melina Lucero",5,f005);
+        Carton cf006=new Carton("Carolina Cabeza",6,f006);
+        Carton cf007=new Carton("Yamila Ruggeri",7,f007);
         Carton cf008=new Carton("Fabiana Quiroga",8,f008);
         Carton cf009=new Carton("Gabriela Vidal",9,f009);
         Carton cf010=new Carton("Ines Quiroga",10,f010);
-        Carton cf011=new Carton("Fernanda Perrone",11,f011);
-        Carton cf012=new Carton("Melina Lucero",12,f012);
-        Carton cf013=new Carton("Claudia Herrera",13,f013);
+        Carton cf011=new Carton("Monica Molina",11,f011);
+        Carton cf012=new Carton("Ines Quiroga",12,f012);
+        Carton cf013=new Carton("Johana Lopez",13,f013);
         Carton cf014=new Carton("Tia Chaty",14,f014);
         Carton cf015=new Carton("Antonella Bermudez",15,f015);
-        Carton cf016=new Carton("Johana Richard",16,f016);
-        Carton cf017=new Carton("Fernanda Perrone",17,f017);
-        Carton cf018=new Carton("Johana Lopez",18,f018);
-        Carton cf019=new Carton("Laura Lucero",19,f019);
+        Carton cf016=new Carton("Paula Vazquez",16,f016);
+        Carton cf017=new Carton("Vanesa Barzola",17,f017);
+        Carton cf018=new Carton("Graciela Miranda",18,f018);
+        Carton cf019=new Carton("Luz Silva",19,f019);
         Carton cf020=new Carton("Antonella Bermudez",20,f020);
-        Carton cf021=new Carton("Ivon Duran",21,f021);
-        ArrayList<Carton> arrayFree= new ArrayList<>();
+        Carton cf021=new Carton("",21,f021);*/
         
-        arrayFree.add(cf001);arrayFree.add(cf002);
+        //ArrayList<Carton> arrayFree= new ArrayList<>();
+        
+        /*arrayFree.add(cf001);arrayFree.add(cf002);
         arrayFree.add(cf003);arrayFree.add(cf004);
         arrayFree.add(cf005);arrayFree.add(cf006);
         arrayFree.add(cf007);arrayFree.add(cf008);
@@ -881,15 +983,15 @@ public class SeriesDe6 {
         arrayFree.add(cf015);arrayFree.add(cf016);
         arrayFree.add(cf017);arrayFree.add(cf018);
         arrayFree.add(cf019);arrayFree.add(cf020);
-        arrayFree.add(cf021);
+        arrayFree.add(cf021);*/
         
-        ArrayList<Carton> array2Free= new ArrayList<>();
+        //ArrayList<Carton> array2Free= new ArrayList<>();
         
-        for (int i = 0; i < arrayFree.size(); i++) {
+        /*for (int i = 0; i < arrayFree.size(); i++) {
             if(!arrayFree.get(i).getNombre().equals("")){
                 array2Free.add(arrayFree.get(i));
             }
-        }
+        }*/
         
         ArrayList <Byte> placa=new ArrayList<>();
         
@@ -950,7 +1052,7 @@ public class SeriesDe6 {
                 }
             }
             //FREE
-            for (int i = 0; i <array2Free.size(); i++) {
+            /*for (int i = 0; i <array2Free.size(); i++) {
                 array2Free.get(i).marcador(num);
                 if(contTerna>0){
                     terna=array2Free.get(i).buscaTerna();
@@ -970,7 +1072,7 @@ public class SeriesDe6 {
                         llenoFinal=true;
                     }
                 }
-            }
+            }*/
             if(ternaFinal){
                 contTerna--;
                 ternaFinal=false;
